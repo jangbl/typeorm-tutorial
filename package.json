@@ -1,0 +1,28 @@
+{
+  "name": "typeorm-tutorial",
+  "version": "0.0.1",
+  "description": "Awesome project developed with TypeORM.",
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/node": "^8.0.29",
+    "ts-node": "3.3.0",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "3.3.3333"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.6.0",
+    "reflect-metadata": "^0.1.10",
+    "typeorm": "0.2.32"
+  },
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "dev": "tsnd --respawn src/index.ts",
+    "init": "npx typeorm init --name typeorm-tutorial --database postgres --docker",
+    "migrate": "ts-node ./node_modules/typeorm/cli.js migration:run",
+    "revert": "ts-node ./node_modules/typeorm/cli.js migration:revert",
+    "generate": "ts-node ./node_modules/typeorm/cli.js migration:generate -n migration -p",
+    "generate-dry": "ts-node ./node_modules/typeorm/cli.js migration:generate -n migration -p --dr",
+    "make-migration": "npx typeorm migration:create -n migrationName"
+  }
+}

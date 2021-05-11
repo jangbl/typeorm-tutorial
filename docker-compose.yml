@@ -1,0 +1,14 @@
+version: '3'
+services:
+  postgres:
+    image: 'postgres:13.2'
+    ports:
+      - '5432:5432'
+    environment:
+      POSTGRES_USER: 'jgoebel'
+      POSTGRES_DB: 'typeorm_tutorial'
+      # allow anyone to connect - even without a password
+      # ONLY USE FOR RUNNING LOCALLY OR IN CI/CD
+      POSTGRES_HOST_AUTH_METHOD: trust
+  
+      
