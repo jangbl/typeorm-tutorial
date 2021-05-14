@@ -13,9 +13,9 @@ and demonstrates how to make use of [TypeORM](https://typeorm.io/) with an [expr
 
 <h3 align="center">Please help this repo with a ⭐️ if you find it useful! 😁</h3>
 
-This repository is contains the code for the [TypeORM tutorial playlist](https://www.youtube.com/watch?v=A5YiqaQbsyI)
+This repository is contains the code for the [TypeORM tutorial playlist](https://www.youtube.com/playlist?list=PL1Nml43UBm6eNLgr12W4-WefGynGyWvbS)
 
-[![TypeORM Tutorial Playlist.png)](https://www.youtube.com/watch?v=A5YiqaQbsyI)
+[![TypeORM tutorial series](images/typeorm-tutorial.png)](https://www.youtube.com/playlist?list=PL1Nml43UBm6eNLgr12W4-WefGynGyWvbS)
 
 Please also check out my website at [jangoebel.com](https://jangoebel.com)
 
