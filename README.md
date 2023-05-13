@@ -19,6 +19,8 @@ This repository is contains the code for the [TypeORM tutorial playlist](https:/
 
 Please also check out my website at [jangoebel.com](https://jangoebel.com)
 
+For updates, please follow [@_jgoebel](https://twitter.com/_jgoebel) on Twitter.
+
 ## Project Setup
 
 ### 1. Install dependencies
